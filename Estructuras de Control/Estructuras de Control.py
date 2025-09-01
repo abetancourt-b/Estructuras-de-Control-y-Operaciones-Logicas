@@ -8,6 +8,9 @@ C = 3
 
 D = 55
 
+E = 20
+
+F = 1
 
 print()
 
@@ -48,3 +51,17 @@ else:
     print("La condicion no se cumplio")
 
 print()
+
+if(E==20):
+    print("Este es el resultado del if verdadero")
+    print(f"La variable E es igual a: {E}")
+else:
+    print("La condicion no se cumple")
+
+print()
+
+if(F!=1):
+    print("Este es el resultado del if verdadero")
+    print(f"La variable E es igual a: {E}")
+else:
+    print("La condicion no se cumple")
